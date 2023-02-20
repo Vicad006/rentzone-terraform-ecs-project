@@ -6,5 +6,5 @@ terraform {
     region         = "us-east-1"
     profile        = "terraform-user"
     dynamodb_table = "terraform-state-lock"
-  }
+  } 
 }
