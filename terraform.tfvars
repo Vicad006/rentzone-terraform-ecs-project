@@ -20,3 +20,7 @@ database_snapshot_identifier="rentzone-ecs-final-snapshot"
 database_instance_class="db.t2.micro" 
 database_instance_identifier="dev-rds-database"
 multi_az_deployment="false"
+
+# ACM variables
+domain_name="victoriamosaku.com"
+alternative_names="*.victoriamosaku.com"
