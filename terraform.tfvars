@@ -14,3 +14,9 @@ private_data_subnet_az2_cidr = "10.0.5.0/24"
 
 # create security group for the database
 ssh_location = "94.13.166.94/32"
+
+# rds variables
+database_snapshot_identifier="rentzone-ecs-final-snapshot"
+database_instance_class="db.t2.micro" 
+database_instance_identifier="dev-rds-database"
+multi_az_deployment="false"
