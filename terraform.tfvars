@@ -24,3 +24,7 @@ multi_az_deployment="false"
 # ACM variables
 domain_name="victoriamosaku.com"
 alternative_names="*.victoriamosaku.com"
+
+#s3 variables
+env_file_bucket_name="oluwaseun-ecs-env-file-bucket"
+env_file_name="rentzone.env"
