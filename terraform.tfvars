@@ -28,3 +28,7 @@ alternative_names="*.victoriamosaku.com"
 #s3 variables
 env_file_bucket_name="oluwaseun-ecs-env-file-bucket"
 env_file_name="rentzone.env"
+
+# ecs variables
+architecture="ARM64"
+container_image="081538428144.dkr.ecr.us-east-1.amazonaws.com/rentzone:latest"
